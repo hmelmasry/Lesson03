@@ -2,18 +2,50 @@
     background: lightgrey
 }
 header{
-    width: 80%;
+  border: 10px solid lightseagreen;
+  width: 80%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;  
+  text-align: center;
+  
 }
 h1 {
-    color: rosybrown
+   color: rosybrown;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  text-decoration-line: underline;
 }
 h2{
-    color: lightseagreen   
+  color: lightseagreen;
+  font-family: 'Anton', sans-serif;
 }
 h3 {
-    color: rgb(201, 15, 15)
+    color: darkblue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
 }
-images{
-
-
+p{
+  padding: 2px 2px 2px 2px;
+  margin: 20px;
+  font-style: italic;
+  font-weight: bold;;
+  font-size: 24px;
+  display: block;  
+}
+img{
+  float: center;
+  margin: 10px;
+  position: relative;
+}
+  
+li{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
 }
